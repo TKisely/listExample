@@ -95,11 +95,16 @@ bool putToIndex(int index,int newElement){
     return true;
 }
 
+void exampleSeparator(){
+    cout<<'\n'<<"-----||-----"<<"\n\n";
+}
+
 void printListElementsToConsole(){
     for (int i = 0; i < elementNum; ++i) {
         cout<<"The element at ["<<i<<"] is = "<<list[i]<<endl;
     }
-    cout<<'\n'<<"-----||-----"<<"\n\n";
+    exampleSeparator();
+
 }
 
 
